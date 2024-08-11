@@ -1,0 +1,48 @@
+:root{
+    --main-color: #161424;
+    --dark-color: #5249a3;
+    --contrast-color: #4F46E5;
+}
+
+body {
+    color: white !important;
+    background-color: var(--main-color) !important;
+}
+
+.bg-color-dark{
+    background-color: var(--main-color);
+}
+
+.p-bold{
+    font-weight: bold;
+}
+
+.color-dark{
+    color: var(--dark-color);
+}
+
+.dark-color{
+    background-color: var(--dark-color);
+    color: white !important;
+}
+
+.centralizer{
+    text-align:center;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(196, 196, 196) !important;
+}
+
+:-moz-placeholder {
+    color: rgb(196, 196, 196)
+}
+
+::-moz-placeholder {
+    color: rgb(196, 196, 196)
+}
+
+:-ms-input-palceholder {
+    color: rgb(196, 196, 196) !important;
+}
+
